@@ -1,0 +1,36 @@
+:root {
+  /* black variations */
+  --primary-black: rgba(0, 0, 0, 0.85);
+  --black: #000;
+  --light-black: rgba(37, 37, 37, 0.125);
+
+  /* blue variations */
+  --light-blue: rgb(133, 165, 255);
+  --dark-blue: rgb(89 126 247 / 20%);
+  --blue: #4a90e2;
+
+  /* grey variations */
+  --light-grey: rgb(86, 86, 86);
+  --primary-grey: #808080;
+
+  /* white variations */
+  --primary-white: #fff;
+  --lighter-white: rgb(245, 247, 254);
+
+  /* yellow variations */
+  --light-yellow: rgb(255, 238, 136);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

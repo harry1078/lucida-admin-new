@@ -1,0 +1,37 @@
+.forminput-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--light-black);
+  margin-bottom: 2rem;
+  border-radius: 2px;
+}
+
+.forminput-container:hover {
+  border: 1px solid var(--light-blue);
+  box-shadow: var(--dark-blue) 0px 0px 0px 2px;
+}
+
+.input,
+.label {
+  font-family: Poppins, sans-serif !important;
+  padding: 0.75rem;
+}
+
+.input {
+  color: var(--primary-black);
+  font-size: 0.875rem;
+}
+
+.label {
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  color: var(--light-grey) !important;
+}
+
+.input {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  border: none;
+  border-top: 1px solid var(--light-black);
+  outline: none;
+}

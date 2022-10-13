@@ -1,0 +1,31 @@
+.form-div {
+  text-align: center;
+  /* margin-top: 5rem; */
+}
+
+.pdfClass {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.submit-button {
+  /* margin-top: 1rem; */
+}
+
+/* div {
+  margin-bottom: 1rem;
+} */
+
+.user-form {
+  padding: 2rem;
+  width: 75%;
+  margin: auto;
+}
+
+.details-block {
+  padding: 3rem;
+}
+
+.form-control {
+  width: 80% !important;
+}
